@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --letter-color: #3b8595;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.headings {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lets {
+  font-weight: lighter;
+  letter-spacing: 8px;
+}
+
+.parallax {
+  letter-spacing: 10px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.city1 {
+  background: url("https://images.unsplash.com/photo-1633773246110-442d2a731938?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=mark-konig-Cn50Y3AxRvM-unsplash.jpg");
+  background-size: cover;
+  height: 600px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 10px;
+  font-size: 70px;
+  font-weight: 400;
+  margin: 0 8px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.city1-p1::first-letter {
+  text-transform: uppercase;
+  color: var(--letter-color);
+  font-size: 84px;
+  line-height: 64px;
+  float: left;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.city1-p1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 100;
+  width: 60%;
+  margin-top: 50px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.city1-p2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 100;
+  width: 60%;
+  text-align: justify;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin: 50px 0;
+  border-width: 1px;
+  width: 200px;
+  border-color: black;
+}
+
+.p1p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+.photo2 {
+  background: url("https://images.unsplash.com/photo-1683008163528-20c2963cf8ef?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=arun-prakash-f9I5YmphVZU-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo3 {
+  background: url("https://images.unsplash.com/photo-1493810329807-db131c118da5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=ken-cheung-TEriGq5ywYA-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.city2p1::first-letter {
+  color: #3d3c3a;
+}
+
+.city3p1::first-letter {
+  color: #c48660;
+}
